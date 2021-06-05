@@ -1,0 +1,12 @@
+body {
+
+    color: #2a2e2e;
+  }
+  .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #7190a4c9;
+  }
+  

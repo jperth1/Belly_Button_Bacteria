@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -14,6 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
+        <img src="images/image.jpg" class="img-fluid" alt="Responsive image">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
@@ -32,23 +34,28 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-7">
         <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
+        <p> This bar chart details the different species of baterica within one's navel. When hovering over each bar, details about the amount and species of bacteria will be displayed.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p> This bubble chart displays the various bacteria within one's navel. Each different bacteria is illistrated with a different color and the size of the bubble indicates amount of bacteria found within the navel. The larger the bubble, the greater amount of bacteria present. </p>
+      </div>
+      <div class="col-md-10">
+        <div id="gauge"></div>
+        <p> This gauge chart depicts the amount of time a week one thoroughly washes their naval. </p>
       </div>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <script src="charts.js"></script>
+  
+
 
 </body>
 
