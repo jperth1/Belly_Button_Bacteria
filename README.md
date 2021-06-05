@@ -1,1 +1,3 @@
 # Belly_Button_Bacteria
+
+This repositories provides an interactive webpage to display bacteria data from volunteer's belly buttons. Bacteria cultures from various volunteers were sampled and loaded into a JSON file. The sampled data is mapped, filtered and sorted using JavaScript to extract the top 10 bacteria species found in each volunteer navel, and is displayed on a dynamic HTML webpage. Using a dropdown menu on the webpage, each volunteer can select their own ID number which will trigger their specific bacteria data to be displayed in the form of a demograpic panel, a bar char, a bubble chart and a gauge chart. Each chart has been rendeder using Plotly to be dynamic and interactive. Bootstrap and CSS is used for styling the webpage.
