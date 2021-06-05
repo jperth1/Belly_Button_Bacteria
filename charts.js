@@ -104,6 +104,8 @@ function buildCharts(sample) {
       y: yticks,
       text: text_labels,
       type: "bar",
+      marker: {color: xticks,
+        colorscale:'Rainbow'},
       orientation: "h"
       
     };
